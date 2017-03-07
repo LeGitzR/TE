@@ -1,0 +1,77 @@
+.login-wrapper {
+	border: 2px solid black;
+}
+
+.seperator {
+	border: 1px solid black;
+}
+
+.button-overwrite {
+	background-color: maroon;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#sign-up-header {
+	display: block;;
+	text-align: center;
+	font-size: 27px;
+}
+
+.navbar-settings {
+	background-color: maroon;
+	color: white;
+}
+
+.navbar-nav > li > a:hover {
+	background-color: grey;
+	color: maroon;
+}
+
+.dropdown-menu {
+	background-color: grey;
+}
+
+.dropdown-menu > li > a:hover {
+	background-color: grey;
+	color: maroon;
+}
+
+.dropdown > a:hover {
+	background-color: grey;
+	color: maroon;
+}
+
+.nav li a {
+	color: white;
+}
+
+.tournament_table {
+	border: 2px solid black;
+}
+
+.tournament_table td {
+	border: 2px solid black;
+}
+
+.tournament_table th {
+	border: 2px solid black;
+}
+
+.tournament_table tr td{
+	display: table-block;
+	width: 120px;
+}
+
+.btn-full {
+	display: block;
+	width: 100%;
+}
+
+.active {
+	background-color: grey;
+}
+
+.center_cell {
+	text-align: center;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>View Tournament</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/default.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/w3.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+
+	<body class="container">
+		<div class="row">
+			<div class="col-md-3 col-md-push-1">
+				<!--<img class="logo-image" src="logo.png">-->
+			</div>
+			<div class="col-md-9">
+				<h1 class="header-text">Tournament Engine for the Ingenious Framework</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-push-2">
+				<nav class="navbar">
+					<div class="navbar-settings">
+						<div class="navbar-header ">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+						</div>
+
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li ><a href="dashboard.html">Home <span class="sr-only">(current)</span></a></li>
+								<li class="dropdown active">
+							        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tournaments
+							        <span class="caret"></span></a>
+							        <ul class="dropdown-menu">
+							          <li><a href="create_tournament.html">Create Tournament</a></li>
+							          <li><a href="my_tournaments.html">My Tournaments</a></li>
+							          <li><a href="public_tournaments.html">Public Tournaments</a></li>
+							        </ul>
+							      </li>
+								<li><a href="rankers.html">Rankers</a></li>
+								<li><a href="schedulers.html">Schedulers</a></li>
+								<li><a href="rankings.html">Rankings</a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+						        <li><a href="login.html">Logout</a></li>
+						      </ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row"><div class="col-md-3 col-md-offset-12"><br></div></div>
+
+		<div class="row"> 
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<h2>Tournament XX - My players</h2>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+		<div class="row"> 
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<table class="tournament_table">
+					<tr>
+						<th>Player Name</th>
+						<th>Edit</th>
+						<th>Delete</th>
+					</tr>
+					<tr>
+						<td><a href="#">PLayer 2 - MCTS</a></td>
+						<td><a class="btn btn-warning btn-full" href="">Edit</a></td>
+						<td><a class="btn btn-danger btn-full" href="">Delete</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Player 1 - MiniMax</a></td>
+						<td><a class="btn btn-warning btn-full" href="">Edit</a></td>
+						<td><a class="btn btn-danger btn-full" href="">Delete</a></td>
+					</tr>
+				</table>
+				<br><br>
+				<a class="btn btn-primary btn-overwrite" href="add_player.html">Add Player</a>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<div class="row"><div class="col-md-3 col-md-offset-12"><br></div></div>
+	</body>
+	<footer>
+        <div class="row footer-wrapper">
+        	<div class="col-md-3 col-md-offset-12"></div>
+        	<div class="col-md-3"></div>
+        	<div class="col-md-2">All Rights Reserved.</div>
+        	<!--<div class="col-md-1"><img class="logo-image-small" src="logo.png"></div>-->
+        	<div class="col-md-3">Tournament Engine</div>
+        	<br>
+        </div>
+	</footer>
+</html>

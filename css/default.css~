@@ -1,0 +1,385 @@
+.logo-image {
+	height: 64px;
+	width: 54px;
+}
+
+.logo-image-small {
+	height: 64px;
+	width: 54px;	
+	padding-bottom: 10px;	
+}
+
+.header-text {
+    color: #5A1A34;
+}
+
+.header-intext {
+	color: #5A1A34;	
+	font-size: 19px;
+	text-align: center;
+}
+
+nav {
+	display: inline;
+}
+
+.admin-nav {
+	font-size: 12px;
+}
+
+.navbar {
+	margin-bottom: 0px !important;
+}
+
+.navbar-settings {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.navbar-settings .navbar-brand {
+  color: #777;
+}
+.navbar-settings .navbar-brand:hover,
+.navbar-settings .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-settings .navbar-text {
+  color: #777;
+}
+.navbar-settings .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-settings .navbar-nav > li > a:hover,
+.navbar-settings .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-settings .navbar-nav > .active > a,
+.navbar-settings .navbar-nav > .active > a:hover,
+.navbar-settings .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-settings .navbar-nav > .disabled > a,
+.navbar-settings .navbar-nav > .disabled > a:hover,
+.navbar-settings .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-settings .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-settings .navbar-toggle:hover,
+.navbar-settings .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-settings .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-settings .navbar-collapse,
+.navbar-settings .navbar-form {
+  border-color: #e7e7e7;
+
+}
+
+.navbar-settings .navbar-nav > .open > a,
+.navbar-settings .navbar-nav > .open > a:hover,
+.navbar-settings .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+@media (min-width: 768px) { 
+.navbar-settings .navbar-collapse,
+.navbar-settings .navbar-form {
+	padding-left: 0px !important;
+
+}
+}
+
+div.home-hover-wrapper {
+	margin-left: 17.66666667%;
+	margin-bottom: 30px !important;
+}
+
+img.home-hover {
+	border-top: 3px solid #5A1A34;
+	border-bottom: 3px solid #5A1A34;
+	border-right: 3px solid #5A1A34;
+	display: inline;
+	max-width: 145px;
+	min-height: 250px;
+	margin-left: -5px;
+	-webkit-filter: grayscale(80%); /* Chrome, Safari, Opera */
+    filter: grayscale(80%);
+}
+
+img.home-hover:hover { 
+		-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+}
+
+img.home-hover-left {
+	border-left: 3px solid #5A1A34;
+}
+
+#largeImgPanel {
+    text-align: center;
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(100,100,100, 0.5);
+}
+
+#largeImg {
+	border: 7.5px solid #5A1A34;
+	width:45%; 
+	height:65%;
+	margin-top:50px;
+	padding:0;
+}
+
+.footer-wrapper {
+	text-align: center;
+}
+
+table, th, td {
+   border: 1px solid #5A1A34;
+}
+
+.left-entry {
+	min-width: 80px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.right-entry {
+	min-width: 180px;
+	text-align: center;
+}
+
+.entry {
+	padding-left: 5px;
+	min-width: 260px;
+}
+
+.right-table {
+	min-height: 500px;
+}
+
+.login-wrapper {
+	border: 2px solid #5A1A34;
+	text-align: center;
+}
+
+.black-border {
+	border: 2px solid #5A1A34;
+	border-bottom: none;
+	text-align: center;
+	margin-left: -17px;
+	margin-right: -17px;
+}
+
+#sign-up-header {
+	font-size: 25px;
+	text-align: center;
+}
+
+.bookings-wrapper {
+	text-align: center;
+}
+
+.button-overwrite {
+	background-color: #5A1A34;
+	border-color: #5A1A34;
+}
+
+.button-overwrite:hover {
+	background-color: darkgrey;
+	border-color: darkgrey;
+}
+
+.input-label {
+	text-align:right;
+}
+
+.forgot-wrapper {
+	text-align: center;
+	padding: 10px;
+}
+
+#forgot-paragraph {
+	padding: 10px;
+	margin-top: 20px;
+	text-align: left;
+}
+
+#booking-paragraph {
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#forgot-email-label {
+	margin-top: 5px;
+}
+
+.booking-table th {
+	background-color: #5A1A34;
+	color: white;
+	border-color: black;
+}
+.manage-booking-table th {
+	background-color: #5A1A34;
+	color: white;
+	border-color: black;
+}
+
+.week-table th {
+    background-color: #5A1A34;
+	color: white;
+	border-color: black;	
+}
+
+.booking-table th, .booking-table td{
+	min-width: 110px;
+	text-align: center;
+}
+
+.manage-booking-table th, .manage-booking-table td{
+	min-width: 110px;
+	text-align: center;
+}
+
+
+.week-table th, .week-table td{
+	min-width: 90px;
+	text-align: center;
+
+}
+
+.week-table td {
+	font-size: 13px;
+}
+
+.label-pending {
+	background-color: yellow;
+	color: black;
+}
+
+td.label-background-pending {
+	background-color: orange;	
+}
+
+.label-confirmed {
+	background-color: lime;
+	color: black;
+}
+
+td.label-background-confirmed {
+	background-color: green;	
+}
+
+td.label-background-outstanding {
+	background-color: red;	
+}
+
+.label-cancelled {
+	background-color: red;
+	color: black;
+}
+
+td.label-background-cancelled {
+	background-color: maroon;	
+}
+
+.violations-table {
+	min-width: 555px;
+}
+
+.violations-table th, .violations-table td {
+	padding-left: 10px;
+	text-align: left;
+}
+
+.awaiting-payment {
+	background-color: red;
+	color: black;
+}
+
+.confirmed-payment {
+	background-color: lime;
+	color: black;
+}
+
+.booking-total {
+    border-right-style: hidden;
+}
+
+#total-row {
+    border-top-style: double;
+}
+
+#cancel-booking {
+    margin-left: 10px;
+    height: 50px;
+    width: 150px;
+    
+}
+
+.make-bookings-wrapper {
+	text-align: left;
+}
+
+#booking-header {
+    clear: both;
+    font-size: 25px;
+    text-align: center;
+}
+
+#type-event-text {
+    width: 100%;
+}
+
+#end_time {
+    margin-left: 15px;
+}
+
+.no-border-col {
+    border-style: none;
+}
+
+#no-color-one {
+    background-color: white;
+    border-style: none;
+}
+
+#no-color-two {
+    background-color: white;
+    border-style: none;
+}
+
+#new-admin-header {
+    margin-left: 290px;
+    text-align: right;
+    font-size: 25px;
+}
+
+.new-admin-wrapper {
+    width: 100%;
+}
+
+.view-button {
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	color: blue;
+}
+
+.disabled {
+	background-color: red !important;
+	color: white !important;
+	border: none;
+}
